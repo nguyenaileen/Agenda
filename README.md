@@ -15,7 +15,7 @@ A planner that lets you put in what you want to do for each hour of the day
 
 # Screenshot of deployed project
 
-[Screenshot of deployed application](Assets/Deployed-application.png)
+[Screenshot of deployed application](Assets/Screenshot.png)
 
 # Link to deployed application:
 
