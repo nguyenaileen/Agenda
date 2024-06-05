@@ -35,7 +35,7 @@ $(document).ready(function () {
     $(".time-block").each(function () {
       var timeBlock = parseInt($(this).attr("id").split("hour")[1]);
 
-      //check time and add past present future classes
+      //check time and add past present future classes as needed
       if (timeBlock < timeCurrent) {
         $(this).removeClass("future");
         $(this).removeClass("present");
