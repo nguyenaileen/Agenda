@@ -33,7 +33,7 @@ $(document).ready(function () {
 
     //loop over time blocks
     $(".time-block").each(function () {
-      var timeBlock = parseInt($(this).attr("id").split("-")[1]);
+      var timeBlock = parseInt($(this).attr("id").split("hour")[1]);
 
       //check time and add past present future classes
       if (timeBlock < timeCurrent) {
